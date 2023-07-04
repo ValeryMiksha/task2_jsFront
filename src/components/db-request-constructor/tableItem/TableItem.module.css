@@ -1,0 +1,29 @@
+.select {
+    font-size: 10pt;
+    outline: none;
+    border: none;
+}
+.body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.delete {
+    width: 40px;
+    height: 40px;
+    outline: none;
+    border: none;
+    background-color: #0000;
+    margin-left: 20px;
+    margin-right: 20px;
+    font-size: 20pt;
+    font-weight: bold;
+
+}
+.checkBox {
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    border: solid black 2px;
+
+}

@@ -1,0 +1,49 @@
+.body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 250px;
+    flex-direction: column;
+}
+
+.title {
+    width: 100%;
+    margin-left: 30px;
+    font-size: 20pt;
+}
+.content {
+    display: flex;
+    flex-wrap: wrap;
+}
+.tableBody {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.table {
+    border-spacing: 0;
+}
+.th, .td {
+    border: 1px solid black;
+    padding: 5px;
+
+}
+.scroll {
+overflow-x: scroll;
+    max-width: 1500px;
+    margin-bottom: 10px;
+}
+
+.tableBody {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 150px;
+
+}
+
+.btn {
+    font-size: 16pt;
+    background-color: white;
+}
